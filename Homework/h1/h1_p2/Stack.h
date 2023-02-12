@@ -8,7 +8,7 @@ class Stack
 {
     private:
         T* v; //pointer to the contiainer
-        int n; //size of container
+        int n; //size  of container
         int top; //index of the top element
 
     public:

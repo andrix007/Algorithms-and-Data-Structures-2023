@@ -46,4 +46,4 @@ vector2.o: $(TARGETS_H1_P5)
 
 #run clean to clean of all stuff
 clean:
-	del /Q build $(wildcard *.o) $(wildcard *.exe)
+	del /Q build $(wildcard *.o) $(wildcard *.exe) $(wildcard *.gch)
